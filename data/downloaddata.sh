@@ -3,7 +3,7 @@
 # Download demo data for Deep Image Reconstruction
 #
 
-FILE_LIST=file_list.csv
+FILE_LIST=natural.csv
 
 for line in `cat $FILE_LIST`; do
     fname=$(echo $line | cut -d, -f1)
