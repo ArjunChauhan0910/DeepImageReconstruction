@@ -5,8 +5,8 @@ The preprint is availabe at bioRxiv ([Shen et al., 2017, Deep image reconstructi
 
 ## Requirements
 
-- Python 2.7
-- [icnn](https://github.com/KamitaniLab/icnn)
+- Python 3.6
+- [icnn](https://github.com/KamitaniLab/icnn) Codebase for this has been ported to python3.
 - Numpy
 - Scipy
 - Pillow (PIL)
@@ -46,6 +46,8 @@ We provide seven scripts that reproduce main figures in the original paper.
     - Reconstructing alphabetical letters shapes from CNN features decoded from the brain; reproducing results in Figure 6B.
 - 7_reconstruct_imagined_image.py
     - Reconstructing imagined image from CNN features decoded from the brain; reproducing results in Figure 8.
+
+These have been combined into the ```main.py``` file. Comment out relevant sections to obtain the relevant subsection of which you need reconstructions of.
 
 ## Data
 
